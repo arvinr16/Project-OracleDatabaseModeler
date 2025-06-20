@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2BDA191-9FB1-FF9D-C889-8AF840BB5ECF" name="BARANG">
+<createdBy>S6N0C</createdBy>
+<createdTime>2025-06-20 01:27:02 UTC</createdTime>
+<ownerDesignName>praktikumDatabaseFoundation_pertemuan13</ownerDesignName>
+<engineerTo>
+<item key="3D6B8D1E-8E3C-2613-D0AA-CFC9D58E1461" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Barang" id="C454EAD3-D14B-C07A-906E-F9C21E2D38A1">
+<createdBy>S6N0C</createdBy>
+<createdTime>2025-06-20 01:27:22 UTC</createdTime>
+<ownerDesignName>praktikumDatabaseFoundation_pertemuan13</ownerDesignName>
+<engineerTo>
+<item key="3D6B8D1E-8E3C-2613-D0AA-CFC9D58E1461" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="487D74DC-557C-44CD-55CC-FBA3B965C568" name="BARANG PK">
+<createdBy>S6N0C</createdBy>
+<createdTime>2025-06-20 01:27:35 UTC</createdTime>
+<ownerDesignName>praktikumDatabaseFoundation_pertemuan13</ownerDesignName>
+<engineerTo>
+<item key="3D6B8D1E-8E3C-2613-D0AA-CFC9D58E1461" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C454EAD3-D14B-C07A-906E-F9C21E2D38A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
